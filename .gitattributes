@@ -2,6 +2,7 @@
 # enforce LF line endings regardless of OS or git configurations.
 * text=auto eol=lf
 *.js text eol=lf
+*.tsx text eol=lf
 
 # Isolate binary files in case the auto-detection algorithm fails and
 # marks them as text files (which could brick them).
