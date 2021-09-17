@@ -29,9 +29,33 @@ export default function Footer() {
 
             <div className="col-lg-8 mt-lg-0 mt-20">
               <div className="row gap-sm-0">
-                <FooterList title="Company" items={['About Us', 'Press Release', 'Terms of Use', 'Privacy & Policy']} />
-                <FooterList title="Support" items={['About Us', 'Refund Policy', 'UnlockRewards', 'Live Chatting']} />
-                <FooterList title="Connect" items={['hi@store.gg', 'team@store.gg', ' Pasific 12, Jakarta Selata', ' 021 - 1122 -9090']} />
+                <FooterList
+                  title="Company"
+                  list={
+                      [{ name: 'About Us' },
+                        { name: 'Press Release' },
+                        { name: 'Terms of Use' },
+                        { name: 'Privacy & Policy' }]
+}
+                />
+                <FooterList
+                  title="Support"
+                  list={
+                      [{ name: 'Refund Policy' },
+                        { name: 'Unlock Rewards' },
+                        { name: 'Live Chatting' }]
+}
+                />
+                <FooterList
+                  title="Connect"
+                  list={
+                      [{ name: 'hi@store.gg', href: 'mailto: hi@store.gg' },
+                        { name: 'team@store.gg', href: 'mailto: team@store.gg' },
+                        { name: 'Pasific 12, Jakarta Selatan', href: 'http://maps.google.com/?q=Pasific 12,Jakarta Selatan' },
+                        { name: '021 - 1122 -9090', href: 'tel: 02111229090' },
+                      ]
+}
+                />
               </div>
             </div>
           </div>
