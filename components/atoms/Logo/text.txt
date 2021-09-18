@@ -1,5 +1,0 @@
-<Link href="/">
-  <a className="navbar-brand">
-    <Image src="/icon/logo.svg" height={60} width={60} />
-  </a>
-</Link>
