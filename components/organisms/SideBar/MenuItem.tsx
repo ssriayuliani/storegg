@@ -6,7 +6,7 @@ interface MenuItemProps{
     title:string;
     active?: boolean;
     icon: 'ic-menu-overview'| 'ic-menu-transactions'| 'ic-menu-messages'| 'ic-menu-card'| 'ic-menu-rewards'| 'ic-menu-settings'|'ic-menu-log-out';
-    href?:string;
+    href:string;
 }
 export default function MenuItem(props: Partial<MenuItemProps>) {
   const {
